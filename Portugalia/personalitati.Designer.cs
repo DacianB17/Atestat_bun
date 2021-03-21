@@ -47,9 +47,9 @@
             // 
             // rtbpersonalitati
             // 
-            this.rtbpersonalitati.Location = new System.Drawing.Point(3, 68);
+            this.rtbpersonalitati.Location = new System.Drawing.Point(132, 12);
             this.rtbpersonalitati.Name = "rtbpersonalitati";
-            this.rtbpersonalitati.Size = new System.Drawing.Size(795, 379);
+            this.rtbpersonalitati.Size = new System.Drawing.Size(486, 412);
             this.rtbpersonalitati.TabIndex = 7;
             this.rtbpersonalitati.Text = "";
             // 

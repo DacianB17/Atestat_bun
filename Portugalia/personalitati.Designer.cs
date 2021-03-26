@@ -35,6 +35,7 @@
             this.bpedro = new System.Windows.Forms.Label();
             this.bmaria = new System.Windows.Forms.Label();
             this.bcristiano = new System.Windows.Forms.Label();
+            this.labelfundal = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.imagpersonalitati)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,46 +62,66 @@
             // bvasco
             // 
             this.bvasco.AutoSize = true;
+            this.bvasco.BackColor = System.Drawing.Color.Transparent;
             this.bvasco.Location = new System.Drawing.Point(309, 19);
             this.bvasco.Name = "bvasco";
             this.bvasco.Size = new System.Drawing.Size(109, 17);
             this.bvasco.TabIndex = 9;
             this.bvasco.Text = "Vasco da Gama";
             this.bvasco.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bvasco.Visible = false;
             this.bvasco.Click += new System.EventHandler(this.bvasco_Click);
             // 
             // bpedro
             // 
             this.bpedro.AutoSize = true;
+            this.bpedro.BackColor = System.Drawing.Color.Transparent;
             this.bpedro.Location = new System.Drawing.Point(434, 19);
             this.bpedro.Name = "bpedro";
             this.bpedro.Size = new System.Drawing.Size(142, 17);
             this.bpedro.TabIndex = 10;
             this.bpedro.Text = "Pedro Alvares Cabral";
             this.bpedro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bpedro.Visible = false;
             this.bpedro.Click += new System.EventHandler(this.bpedro_Click);
             // 
             // bmaria
             // 
             this.bmaria.AutoSize = true;
+            this.bmaria.BackColor = System.Drawing.Color.Transparent;
             this.bmaria.Location = new System.Drawing.Point(592, 19);
             this.bmaria.Name = "bmaria";
             this.bmaria.Size = new System.Drawing.Size(50, 17);
             this.bmaria.TabIndex = 11;
             this.bmaria.Text = "Maria I";
             this.bmaria.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bmaria.Visible = false;
             this.bmaria.Click += new System.EventHandler(this.bmaria_Click);
             // 
             // bcristiano
             // 
             this.bcristiano.AutoSize = true;
+            this.bcristiano.BackColor = System.Drawing.Color.Transparent;
             this.bcristiano.Location = new System.Drawing.Point(658, 19);
             this.bcristiano.Name = "bcristiano";
             this.bcristiano.Size = new System.Drawing.Size(120, 17);
             this.bcristiano.TabIndex = 12;
             this.bcristiano.Text = "Cristiano Ronaldo";
             this.bcristiano.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bcristiano.Visible = false;
             this.bcristiano.Click += new System.EventHandler(this.bcristiano_Click);
+            // 
+            // labelfundal
+            // 
+            this.labelfundal.AutoSize = true;
+            this.labelfundal.BackColor = System.Drawing.Color.Transparent;
+            this.labelfundal.Font = new System.Drawing.Font("Blackadder ITC", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelfundal.Location = new System.Drawing.Point(1067, 19);
+            this.labelfundal.Name = "labelfundal";
+            this.labelfundal.Size = new System.Drawing.Size(100, 39);
+            this.labelfundal.TabIndex = 13;
+            this.labelfundal.Text = "Algarve";
+            this.labelfundal.Click += new System.EventHandler(this.labelfundal_Click);
             // 
             // personalitati
             // 
@@ -109,6 +130,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1211, 674);
+            this.Controls.Add(this.labelfundal);
             this.Controls.Add(this.bcristiano);
             this.Controls.Add(this.bmaria);
             this.Controls.Add(this.bpedro);
@@ -130,5 +152,6 @@
         private System.Windows.Forms.Label bpedro;
         private System.Windows.Forms.Label bmaria;
         private System.Windows.Forms.Label bcristiano;
+        private System.Windows.Forms.Label labelfundal;
     }
 }

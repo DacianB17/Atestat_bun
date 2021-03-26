@@ -33,7 +33,6 @@
             this.borase = new System.Windows.Forms.Button();
             this.butontest = new System.Windows.Forms.Button();
             this.bpersonalitati = new System.Windows.Forms.Button();
-            this.bgalerie = new System.Windows.Forms.Button();
             this.rtbistoric = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
@@ -89,18 +88,6 @@
             this.bpersonalitati.UseVisualStyleBackColor = false;
             this.bpersonalitati.Click += new System.EventHandler(this.bpersonalitati_Click);
             // 
-            // bgalerie
-            // 
-            this.bgalerie.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bgalerie.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bgalerie.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bgalerie.Location = new System.Drawing.Point(13, 286);
-            this.bgalerie.Name = "bgalerie";
-            this.bgalerie.Size = new System.Drawing.Size(130, 50);
-            this.bgalerie.TabIndex = 5;
-            this.bgalerie.Text = "Galerie";
-            this.bgalerie.UseVisualStyleBackColor = false;
-            // 
             // rtbistoric
             // 
             this.rtbistoric.Location = new System.Drawing.Point(330, 28);
@@ -119,7 +106,6 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(824, 491);
             this.Controls.Add(this.rtbistoric);
-            this.Controls.Add(this.bgalerie);
             this.Controls.Add(this.bpersonalitati);
             this.Controls.Add(this.butontest);
             this.Controls.Add(this.borase);
@@ -137,7 +123,6 @@
         private System.Windows.Forms.Button borase;
         private System.Windows.Forms.Button butontest;
         private System.Windows.Forms.Button bpersonalitati;
-        private System.Windows.Forms.Button bgalerie;
         private System.Windows.Forms.RichTextBox rtbistoric;
     }
 }

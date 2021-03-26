@@ -28,129 +28,128 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.blisabona = new System.Windows.Forms.Button();
-            this.bporto = new System.Windows.Forms.Button();
-            this.bbraga = new System.Windows.Forms.Button();
-            this.bfunchal = new System.Windows.Forms.Button();
-            this.bsetubal = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(orase));
             this.rtborase = new System.Windows.Forms.RichTextBox();
-            this.bimagini = new System.Windows.Forms.Button();
+            this.pbharta = new System.Windows.Forms.PictureBox();
+            this.labellisabona = new System.Windows.Forms.Label();
+            this.labelporto = new System.Windows.Forms.Label();
+            this.labelbraga = new System.Windows.Forms.Label();
+            this.labelsetubal = new System.Windows.Forms.Label();
+            this.labelfundal = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pbharta)).BeginInit();
             this.SuspendLayout();
-            // 
-            // blisabona
-            // 
-            this.blisabona.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.blisabona.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.blisabona.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.blisabona.Location = new System.Drawing.Point(12, 1);
-            this.blisabona.Name = "blisabona";
-            this.blisabona.Size = new System.Drawing.Size(105, 46);
-            this.blisabona.TabIndex = 1;
-            this.blisabona.Text = "Lisabona";
-            this.blisabona.UseVisualStyleBackColor = false;
-            this.blisabona.Click += new System.EventHandler(this.blisabona_Click);
-            // 
-            // bporto
-            // 
-            this.bporto.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bporto.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bporto.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bporto.Location = new System.Drawing.Point(12, 53);
-            this.bporto.Name = "bporto";
-            this.bporto.Size = new System.Drawing.Size(105, 46);
-            this.bporto.TabIndex = 2;
-            this.bporto.Text = "Porto";
-            this.bporto.UseVisualStyleBackColor = false;
-            this.bporto.Click += new System.EventHandler(this.bporto_Click);
-            // 
-            // bbraga
-            // 
-            this.bbraga.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bbraga.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bbraga.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bbraga.Location = new System.Drawing.Point(12, 105);
-            this.bbraga.Name = "bbraga";
-            this.bbraga.Size = new System.Drawing.Size(105, 46);
-            this.bbraga.TabIndex = 3;
-            this.bbraga.Text = "Braga";
-            this.bbraga.UseVisualStyleBackColor = false;
-            this.bbraga.Click += new System.EventHandler(this.bbraga_Click);
-            // 
-            // bfunchal
-            // 
-            this.bfunchal.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bfunchal.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bfunchal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bfunchal.Location = new System.Drawing.Point(12, 157);
-            this.bfunchal.Name = "bfunchal";
-            this.bfunchal.Size = new System.Drawing.Size(105, 46);
-            this.bfunchal.TabIndex = 4;
-            this.bfunchal.Text = "Funchal";
-            this.bfunchal.UseVisualStyleBackColor = false;
-            this.bfunchal.Click += new System.EventHandler(this.bfunchal_Click);
-            // 
-            // bsetubal
-            // 
-            this.bsetubal.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bsetubal.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bsetubal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bsetubal.Location = new System.Drawing.Point(12, 209);
-            this.bsetubal.Name = "bsetubal";
-            this.bsetubal.Size = new System.Drawing.Size(105, 46);
-            this.bsetubal.TabIndex = 5;
-            this.bsetubal.Text = "Setúbal";
-            this.bsetubal.UseVisualStyleBackColor = false;
-            this.bsetubal.Click += new System.EventHandler(this.bsetubal_Click);
             // 
             // rtborase
             // 
-            this.rtborase.Location = new System.Drawing.Point(123, 1);
+            this.rtborase.Location = new System.Drawing.Point(610, 145);
             this.rtborase.Name = "rtborase";
-            this.rtborase.Size = new System.Drawing.Size(675, 447);
+            this.rtborase.ReadOnly = true;
+            this.rtborase.Size = new System.Drawing.Size(673, 570);
             this.rtborase.TabIndex = 6;
             this.rtborase.Text = "";
+            this.rtborase.Visible = false;
             this.rtborase.TextChanged += new System.EventHandler(this.rtborase_TextChanged);
             // 
-            // bimagini
+            // pbharta
             // 
-            this.bimagini.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bimagini.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bimagini.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bimagini.Location = new System.Drawing.Point(12, 261);
-            this.bimagini.Name = "bimagini";
-            this.bimagini.Size = new System.Drawing.Size(105, 46);
-            this.bimagini.TabIndex = 7;
-            this.bimagini.Text = "Imagini";
-            this.bimagini.UseVisualStyleBackColor = false;
-            this.bimagini.Click += new System.EventHandler(this.bimagini_Click);
+            this.pbharta.Image = ((System.Drawing.Image)(resources.GetObject("pbharta.Image")));
+            this.pbharta.Location = new System.Drawing.Point(2, 1);
+            this.pbharta.Name = "pbharta";
+            this.pbharta.Size = new System.Drawing.Size(426, 813);
+            this.pbharta.TabIndex = 7;
+            this.pbharta.TabStop = false;
+            this.pbharta.Visible = false;
+            // 
+            // labellisabona
+            // 
+            this.labellisabona.AutoSize = true;
+            this.labellisabona.BackColor = System.Drawing.Color.Transparent;
+            this.labellisabona.Location = new System.Drawing.Point(1280, 73);
+            this.labellisabona.Name = "labellisabona";
+            this.labellisabona.Size = new System.Drawing.Size(66, 17);
+            this.labellisabona.TabIndex = 8;
+            this.labellisabona.Text = "Lisabona";
+            this.labellisabona.Visible = false;
+            this.labellisabona.Click += new System.EventHandler(this.labellisabona_Click);
+            // 
+            // labelporto
+            // 
+            this.labelporto.AutoSize = true;
+            this.labelporto.BackColor = System.Drawing.Color.Transparent;
+            this.labelporto.Location = new System.Drawing.Point(1352, 73);
+            this.labelporto.Name = "labelporto";
+            this.labelporto.Size = new System.Drawing.Size(42, 17);
+            this.labelporto.TabIndex = 9;
+            this.labelporto.Text = "Porto";
+            this.labelporto.Visible = false;
+            this.labelporto.Click += new System.EventHandler(this.labelporto_Click);
+            // 
+            // labelbraga
+            // 
+            this.labelbraga.AutoSize = true;
+            this.labelbraga.BackColor = System.Drawing.Color.Transparent;
+            this.labelbraga.Location = new System.Drawing.Point(1280, 99);
+            this.labelbraga.Name = "labelbraga";
+            this.labelbraga.Size = new System.Drawing.Size(46, 17);
+            this.labelbraga.TabIndex = 10;
+            this.labelbraga.Text = "Braga";
+            this.labelbraga.Visible = false;
+            this.labelbraga.Click += new System.EventHandler(this.labelbraga_Click);
+            // 
+            // labelsetubal
+            // 
+            this.labelsetubal.AutoSize = true;
+            this.labelsetubal.BackColor = System.Drawing.Color.Transparent;
+            this.labelsetubal.Location = new System.Drawing.Point(1332, 99);
+            this.labelsetubal.Name = "labelsetubal";
+            this.labelsetubal.Size = new System.Drawing.Size(56, 17);
+            this.labelsetubal.TabIndex = 11;
+            this.labelsetubal.Text = "Setubal";
+            this.labelsetubal.Visible = false;
+            this.labelsetubal.Click += new System.EventHandler(this.labelsetubal_Click);
+            // 
+            // labelfundal
+            // 
+            this.labelfundal.AutoSize = true;
+            this.labelfundal.BackColor = System.Drawing.Color.Transparent;
+            this.labelfundal.Font = new System.Drawing.Font("Blackadder ITC", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelfundal.Location = new System.Drawing.Point(1276, 25);
+            this.labelfundal.Name = "labelfundal";
+            this.labelfundal.Size = new System.Drawing.Size(160, 39);
+            this.labelfundal.TabIndex = 12;
+            this.labelfundal.Text = "Turnul Belem";
+            this.labelfundal.Click += new System.EventHandler(this.labelfundal_Click);
             // 
             // orase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.bimagini);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1473, 826);
+            this.Controls.Add(this.labelfundal);
+            this.Controls.Add(this.labelsetubal);
+            this.Controls.Add(this.labelbraga);
+            this.Controls.Add(this.labelporto);
+            this.Controls.Add(this.labellisabona);
+            this.Controls.Add(this.pbharta);
             this.Controls.Add(this.rtborase);
-            this.Controls.Add(this.bsetubal);
-            this.Controls.Add(this.bfunchal);
-            this.Controls.Add(this.bbraga);
-            this.Controls.Add(this.bporto);
-            this.Controls.Add(this.blisabona);
             this.Name = "orase";
             this.Text = "Orase";
             this.Load += new System.EventHandler(this.orase_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbharta)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button blisabona;
-        private System.Windows.Forms.Button bporto;
-        private System.Windows.Forms.Button bbraga;
-        private System.Windows.Forms.Button bfunchal;
-        private System.Windows.Forms.Button bsetubal;
         private System.Windows.Forms.RichTextBox rtborase;
-        private System.Windows.Forms.Button bimagini;
+        private System.Windows.Forms.PictureBox pbharta;
+        private System.Windows.Forms.Label labellisabona;
+        private System.Windows.Forms.Label labelporto;
+        private System.Windows.Forms.Label labelbraga;
+        private System.Windows.Forms.Label labelsetubal;
+        private System.Windows.Forms.Label labelfundal;
     }
 }

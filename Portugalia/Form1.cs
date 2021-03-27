@@ -82,6 +82,7 @@ namespace Portugalia
 
         private void labelinfgen_Click(object sender, EventArgs e)
         {
+            rtbistoric.Visible = false;
             Form ig = new infgen();
             ig.Show();
         }

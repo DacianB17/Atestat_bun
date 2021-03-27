@@ -374,7 +374,7 @@
             this.labelsintra.BackColor = System.Drawing.Color.Transparent;
             this.labelsintra.Font = new System.Drawing.Font("Blackadder ITC", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelsintra.ForeColor = System.Drawing.Color.White;
-            this.labelsintra.Location = new System.Drawing.Point(797, 24);
+            this.labelsintra.Location = new System.Drawing.Point(786, 24);
             this.labelsintra.Name = "labelsintra";
             this.labelsintra.Size = new System.Drawing.Size(205, 39);
             this.labelsintra.TabIndex = 14;

@@ -29,74 +29,102 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
-            this.bistoric = new System.Windows.Forms.Button();
-            this.borase = new System.Windows.Forms.Button();
-            this.butontest = new System.Windows.Forms.Button();
-            this.bpersonalitati = new System.Windows.Forms.Button();
             this.rtbistoric = new System.Windows.Forms.RichTextBox();
+            this.labelistoric = new System.Windows.Forms.Label();
+            this.labelorase = new System.Windows.Forms.Label();
+            this.labelpersonalitati = new System.Windows.Forms.Label();
+            this.labeltest = new System.Windows.Forms.Label();
+            this.labelinfgen = new System.Windows.Forms.Label();
+            this.labeliesire = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // bistoric
-            // 
-            this.bistoric.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bistoric.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bistoric.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bistoric.Location = new System.Drawing.Point(13, 28);
-            this.bistoric.Name = "bistoric";
-            this.bistoric.Size = new System.Drawing.Size(130, 50);
-            this.bistoric.TabIndex = 0;
-            this.bistoric.Text = "Istoric";
-            this.bistoric.UseVisualStyleBackColor = false;
-            this.bistoric.Click += new System.EventHandler(this.bistoric_Click);
-            // 
-            // borase
-            // 
-            this.borase.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.borase.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.borase.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.borase.Location = new System.Drawing.Point(13, 94);
-            this.borase.Name = "borase";
-            this.borase.Size = new System.Drawing.Size(130, 50);
-            this.borase.TabIndex = 2;
-            this.borase.Text = "Orașe";
-            this.borase.UseVisualStyleBackColor = false;
-            this.borase.Click += new System.EventHandler(this.borase_Click);
-            // 
-            // butontest
-            // 
-            this.butontest.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.butontest.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butontest.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.butontest.Location = new System.Drawing.Point(13, 157);
-            this.butontest.Name = "butontest";
-            this.butontest.Size = new System.Drawing.Size(130, 50);
-            this.butontest.TabIndex = 3;
-            this.butontest.Text = "Test";
-            this.butontest.UseVisualStyleBackColor = false;
-            this.butontest.Click += new System.EventHandler(this.butontest_Click);
-            // 
-            // bpersonalitati
-            // 
-            this.bpersonalitati.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bpersonalitati.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bpersonalitati.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bpersonalitati.Location = new System.Drawing.Point(13, 221);
-            this.bpersonalitati.Name = "bpersonalitati";
-            this.bpersonalitati.Size = new System.Drawing.Size(130, 50);
-            this.bpersonalitati.TabIndex = 4;
-            this.bpersonalitati.Text = "Personalități";
-            this.bpersonalitati.UseVisualStyleBackColor = false;
-            this.bpersonalitati.Click += new System.EventHandler(this.bpersonalitati_Click);
             // 
             // rtbistoric
             // 
-            this.rtbistoric.Location = new System.Drawing.Point(330, 28);
+            this.rtbistoric.Location = new System.Drawing.Point(330, 36);
             this.rtbistoric.Name = "rtbistoric";
             this.rtbistoric.ReadOnly = true;
-            this.rtbistoric.Size = new System.Drawing.Size(470, 441);
+            this.rtbistoric.Size = new System.Drawing.Size(454, 419);
             this.rtbistoric.TabIndex = 6;
             this.rtbistoric.Text = "";
             this.rtbistoric.Visible = false;
+            // 
+            // labelistoric
+            // 
+            this.labelistoric.AutoSize = true;
+            this.labelistoric.BackColor = System.Drawing.Color.Transparent;
+            this.labelistoric.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelistoric.ForeColor = System.Drawing.Color.White;
+            this.labelistoric.Location = new System.Drawing.Point(12, 9);
+            this.labelistoric.Name = "labelistoric";
+            this.labelistoric.Size = new System.Drawing.Size(58, 24);
+            this.labelistoric.TabIndex = 8;
+            this.labelistoric.Text = "Istoric";
+            this.labelistoric.Click += new System.EventHandler(this.labelistoric_Click);
+            // 
+            // labelorase
+            // 
+            this.labelorase.AutoSize = true;
+            this.labelorase.BackColor = System.Drawing.Color.Transparent;
+            this.labelorase.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelorase.ForeColor = System.Drawing.Color.Transparent;
+            this.labelorase.Location = new System.Drawing.Point(76, 9);
+            this.labelorase.Name = "labelorase";
+            this.labelorase.Size = new System.Drawing.Size(61, 24);
+            this.labelorase.TabIndex = 9;
+            this.labelorase.Text = "Orașe";
+            this.labelorase.Click += new System.EventHandler(this.labelorase_Click);
+            // 
+            // labelpersonalitati
+            // 
+            this.labelpersonalitati.AutoSize = true;
+            this.labelpersonalitati.BackColor = System.Drawing.Color.Transparent;
+            this.labelpersonalitati.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelpersonalitati.ForeColor = System.Drawing.Color.White;
+            this.labelpersonalitati.Location = new System.Drawing.Point(143, 9);
+            this.labelpersonalitati.Name = "labelpersonalitati";
+            this.labelpersonalitati.Size = new System.Drawing.Size(110, 24);
+            this.labelpersonalitati.TabIndex = 10;
+            this.labelpersonalitati.Text = "Personalități";
+            this.labelpersonalitati.Click += new System.EventHandler(this.labelpersonalitati_Click);
+            // 
+            // labeltest
+            // 
+            this.labeltest.AutoSize = true;
+            this.labeltest.BackColor = System.Drawing.Color.Transparent;
+            this.labeltest.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labeltest.ForeColor = System.Drawing.Color.White;
+            this.labeltest.Location = new System.Drawing.Point(259, 9);
+            this.labeltest.Name = "labeltest";
+            this.labeltest.Size = new System.Drawing.Size(46, 24);
+            this.labeltest.TabIndex = 11;
+            this.labeltest.Text = "Test";
+            this.labeltest.Click += new System.EventHandler(this.labeltest_Click);
+            // 
+            // labelinfgen
+            // 
+            this.labelinfgen.AutoSize = true;
+            this.labelinfgen.BackColor = System.Drawing.Color.Transparent;
+            this.labelinfgen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelinfgen.ForeColor = System.Drawing.Color.White;
+            this.labelinfgen.Location = new System.Drawing.Point(311, 9);
+            this.labelinfgen.Name = "labelinfgen";
+            this.labelinfgen.Size = new System.Drawing.Size(164, 24);
+            this.labelinfgen.TabIndex = 12;
+            this.labelinfgen.Text = "Informații generale";
+            this.labelinfgen.Click += new System.EventHandler(this.labelinfgen_Click);
+            // 
+            // labeliesire
+            // 
+            this.labeliesire.AutoSize = true;
+            this.labeliesire.BackColor = System.Drawing.Color.Transparent;
+            this.labeliesire.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labeliesire.ForeColor = System.Drawing.Color.White;
+            this.labeliesire.Location = new System.Drawing.Point(481, 9);
+            this.labeliesire.Name = "labeliesire";
+            this.labeliesire.Size = new System.Drawing.Size(55, 24);
+            this.labeliesire.TabIndex = 13;
+            this.labeliesire.Text = "Ieșire";
+            this.labeliesire.Click += new System.EventHandler(this.labeliesire_Click);
             // 
             // Principal
             // 
@@ -105,25 +133,29 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(824, 491);
+            this.Controls.Add(this.labeliesire);
+            this.Controls.Add(this.labelinfgen);
+            this.Controls.Add(this.labeltest);
+            this.Controls.Add(this.labelpersonalitati);
+            this.Controls.Add(this.labelorase);
+            this.Controls.Add(this.labelistoric);
             this.Controls.Add(this.rtbistoric);
-            this.Controls.Add(this.bpersonalitati);
-            this.Controls.Add(this.butontest);
-            this.Controls.Add(this.borase);
-            this.Controls.Add(this.bistoric);
             this.Name = "Principal";
             this.Text = "Portugalia";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button bistoric;
-        private System.Windows.Forms.Button borase;
-        private System.Windows.Forms.Button butontest;
-        private System.Windows.Forms.Button bpersonalitati;
         private System.Windows.Forms.RichTextBox rtbistoric;
+        private System.Windows.Forms.Label labelistoric;
+        private System.Windows.Forms.Label labelorase;
+        private System.Windows.Forms.Label labelpersonalitati;
+        private System.Windows.Forms.Label labeltest;
+        private System.Windows.Forms.Label labelinfgen;
+        private System.Windows.Forms.Label labeliesire;
     }
 }
 

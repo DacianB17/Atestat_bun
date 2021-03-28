@@ -70,6 +70,12 @@
     <Compile Include="istoric.Designer.cs">
       <DependentUpon>istoric.cs</DependentUpon>
     </Compile>
+    <Compile Include="obiective.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="obiective.Designer.cs">
+      <DependentUpon>obiective.cs</DependentUpon>
+    </Compile>
     <Compile Include="orase.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="istoric.resx">
       <DependentUpon>istoric.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obiective.resx">
+      <DependentUpon>obiective.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="orase.resx">
       <DependentUpon>orase.cs</DependentUpon>

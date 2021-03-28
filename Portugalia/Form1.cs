@@ -55,12 +55,14 @@ namespace Portugalia
 
         private void labelistoric_Click(object sender, EventArgs e)
         {
+            tbdespre.Visible = false;
             rtbistoric.Visible = true;
             rtbistoric.LoadFile("istoric.rtf");
         }
 
         private void labelorase_Click(object sender, EventArgs e)
         {
+            tbdespre.Visible = false;
             rtbistoric.Visible = false;
             Form or = new orase();
             or.Show();
@@ -68,6 +70,7 @@ namespace Portugalia
 
         private void labelpersonalitati_Click(object sender, EventArgs e)
         {
+            tbdespre.Visible = false;
             rtbistoric.Visible = false;
             Form pe = new personalitati();
             pe.Show();
@@ -75,6 +78,7 @@ namespace Portugalia
 
         private void labeltest_Click(object sender, EventArgs e)
         {
+            tbdespre.Visible = false;
             rtbistoric.Visible = false;
             Form te = new test();
             te.Show();
@@ -82,6 +86,7 @@ namespace Portugalia
 
         private void labelinfgen_Click(object sender, EventArgs e)
         {
+            tbdespre.Visible = false;
             rtbistoric.Visible = false;
             Form ig = new infgen();
             ig.Show();
@@ -90,6 +95,18 @@ namespace Portugalia
         private void labeliesire_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void labeldespre_Click(object sender, EventArgs e)
+        {
+            rtbistoric.Visible = false;
+            tbdespre.Visible = true;
+        }
+
+        private void labelobiective_Click(object sender, EventArgs e)
+        {
+            Form ob = new obiective();
+            ob.Show();
         }
     }
 }

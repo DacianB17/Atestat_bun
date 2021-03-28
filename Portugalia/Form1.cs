@@ -105,6 +105,8 @@ namespace Portugalia
 
         private void labelobiective_Click(object sender, EventArgs e)
         {
+            tbdespre.Visible = false;
+            rtbistoric.Visible = false;
             Form ob = new obiective();
             ob.Show();
         }

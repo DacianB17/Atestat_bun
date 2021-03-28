@@ -132,10 +132,12 @@
             // tbdespre
             // 
             this.tbdespre.BackColor = System.Drawing.Color.DarkGreen;
+            this.tbdespre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbdespre.ForeColor = System.Drawing.Color.White;
             this.tbdespre.Location = new System.Drawing.Point(16, 370);
             this.tbdespre.Multiline = true;
             this.tbdespre.Name = "tbdespre";
+            this.tbdespre.ReadOnly = true;
             this.tbdespre.Size = new System.Drawing.Size(322, 89);
             this.tbdespre.TabIndex = 14;
             this.tbdespre.Text = "Propunător: Beldean Dacian\r\nLiceul Teoretic ,,Aurel Vlaicu\" Orăștie\r\nClasa a 12-a" +

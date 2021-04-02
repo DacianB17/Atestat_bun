@@ -50,7 +50,7 @@
             this.labelfundal.Name = "labelfundal";
             this.labelfundal.Size = new System.Drawing.Size(143, 39);
             this.labelfundal.TabIndex = 14;
-            this.labelfundal.Text = "Barrio Alto";
+            this.labelfundal.Text = "Bairro Alto";
             this.labelfundal.Click += new System.EventHandler(this.labelfundal_Click);
             // 
             // labeldenof

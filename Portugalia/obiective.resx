@@ -117,6 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="labeldaluz.Text" xml:space="preserve">
+    <value>Estádio da Luz, frecvent tradus ca Stadionul Luminii, este un stadion din Lisabona pe care evoluează clubul portughez S.L. Benfica. Arena mai este numită și ”Catedrala” de către suporterii Benficăi. S-a deschis pe 25 octombrie 2003 cu un meci dintre Benfica și Club Nacional de Football, scor 2-1. Stadionul are o capacitate de 66147 locuri. A găzduit printre altele finala Ligii Campionilor 2014, Real Madrid 4-1 Atletico Madrid și finala din 2020, PSG 0-1 Bayern Munchen.</value>
+  </data>
+  <data name="labelbelem.Text" xml:space="preserve">
+    <value>Alături de Mănăstirea Jeronimos, Turnul Belem este unul dintre cele mai simbolice edificii din Lisabona. Şi el este o expresie rafinată a superbului stil manuelin (cu discrete elemente caracteristice diverselor alte stiluri arhitecturale), făcând parte, în acelaşi timp, din Patrimoniul Mondial UNESCO (declarat ca atare în 1983).Turnul este situat, aşa cum sugerează şi numele, în districtul Belem, şi mai este cunoscut şi ca Turnul sau Castelul Sfântul Vincent (Castelo de Sao Vicente de Belem).</value>
+  </data>
+  <data name="labelbairro.Text" xml:space="preserve">
+    <value>Bairro Alto este districtul de sus al oraşului Lisabona, motiv pentru care este adesea comparat cu Baixa (districtul de jos), cel puţin din punct de vedere geografic. Trecerea din Baixa către Bairro Alto se face traversând Chiado. Din punct de vedere turistic, Bairro Alto se detaşează prin oportunităţile de shopping şi de petrecere a vieţii de noapte. Astfel, unele dintre principalele artere ale cumpărăturilor sunt Rua do Diario de Noticias, Rua do Norte şi Rua da Atalaia, care sunt mereu plăcut de explorat nu doar datorită satisfacţiilor legate de shopping ce pot fi obţinute, ci şi întrucât cele mai multe au fost transformate complet sau parţial în zone pietonale.</value>
+  </data>
+  <data name="labelalgarve.Text" xml:space="preserve">
+    <value>Algarve este regiunea cea mai sudică din Portugalia. Ea ocupă o suprafață de 4.960 km², având 400.000 loc. Algarve este numită oficial „Região do Algarve” fiind una din cele 7 regiuni administrative ale Portugaliei (Alentejo, Algarve, Azore, Região Centro, Região de Lisboa, Madeira, Região Norte). Capitala regiunii este orașul Faro care este în același timp capitala districtului cu același nume. În Faro se află singurul aeroport internațional din regiune (FAO) și Universitatea Algarve.</value>
+  </data>
+  <data name="labelpena.Text" xml:space="preserve">
+    <value>Palatul Național Pena este o construcție din regiunea Sintra, Portugalia, un edificiu uimitor admirat anual de milioane de turiști din întreaga lume. Palatul Național Pena se află pe vârful unui deal și în timpul zilelor senine poate fi admirat din capitala portugheză, din Lisabona. Palatul este deja declarat Monument Național al Portugaliei, fiind cea mai importantă expresie a romantismului din secolul al XIX-lea. Palatul Național Pena se află deja pe listele Patrimoniului Mondial UNESCO și a fost declarat una dintre cele Șapte Minuni ale Portugaliei.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

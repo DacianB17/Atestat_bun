@@ -53,7 +53,7 @@
             // pbharta
             // 
             this.pbharta.Image = ((System.Drawing.Image)(resources.GetObject("pbharta.Image")));
-            this.pbharta.Location = new System.Drawing.Point(2, 1);
+            this.pbharta.Location = new System.Drawing.Point(3, 6);
             this.pbharta.Name = "pbharta";
             this.pbharta.Size = new System.Drawing.Size(426, 813);
             this.pbharta.TabIndex = 7;

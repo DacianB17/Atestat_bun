@@ -138,7 +138,7 @@
             this.Controls.Add(this.imagpersonalitati);
             this.Controls.Add(this.rtbpersonalitati);
             this.Name = "personalitati";
-            this.Text = "Personalitati";
+            this.Text = "Personalități";
             ((System.ComponentModel.ISupportInitialize)(this.imagpersonalitati)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

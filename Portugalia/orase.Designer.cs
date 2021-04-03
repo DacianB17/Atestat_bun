@@ -135,7 +135,7 @@
             this.Controls.Add(this.pbharta);
             this.Controls.Add(this.rtborase);
             this.Name = "orase";
-            this.Text = "Orase";
+            this.Text = "Orașe";
             this.Load += new System.EventHandler(this.orase_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbharta)).EndInit();
             this.ResumeLayout(false);

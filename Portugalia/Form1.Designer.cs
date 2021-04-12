@@ -187,6 +187,7 @@
             this.Controls.Add(this.labelorase);
             this.Controls.Add(this.labelistoric);
             this.Controls.Add(this.rtbistoric);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Principal";
             this.Text = "Portugalia";
             this.Load += new System.EventHandler(this.Form1_Load);

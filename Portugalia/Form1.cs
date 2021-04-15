@@ -55,6 +55,7 @@ namespace Portugalia
 
         private void labelistoric_Click(object sender, EventArgs e)
         {
+            labelfundal.Visible = false;
             tbdespre.Visible = false;
             rtbistoric.Visible = true;
             rtbistoric.LoadFile("istoric.rtf");
@@ -62,6 +63,8 @@ namespace Portugalia
 
         private void labelorase_Click(object sender, EventArgs e)
         {
+            if (labelfundal.Visible == false)
+                labelfundal.Visible = true;
             tbdespre.Visible = false;
             rtbistoric.Visible = false;
             Form or = new orase();
@@ -70,6 +73,8 @@ namespace Portugalia
 
         private void labelpersonalitati_Click(object sender, EventArgs e)
         {
+            if (labelfundal.Visible == false)
+                labelfundal.Visible = true;
             tbdespre.Visible = false;
             rtbistoric.Visible = false;
             Form pe = new personalitati();
@@ -78,6 +83,8 @@ namespace Portugalia
 
         private void labeltest_Click(object sender, EventArgs e)
         {
+            if (labelfundal.Visible == false)
+                labelfundal.Visible = true;
             tbdespre.Visible = false;
             rtbistoric.Visible = false;
             Form te = new test();
@@ -86,6 +93,8 @@ namespace Portugalia
 
         private void labelinfgen_Click(object sender, EventArgs e)
         {
+            if (labelfundal.Visible == false)
+                labelfundal.Visible = true;
             tbdespre.Visible = false;
             rtbistoric.Visible = false;
             Form ig = new infgen();
@@ -99,12 +108,16 @@ namespace Portugalia
 
         private void labeldespre_Click(object sender, EventArgs e)
         {
+            if (labelfundal.Visible == false)
+                labelfundal.Visible = true;
             rtbistoric.Visible = false;
             tbdespre.Visible = true;
         }
 
         private void labelobiective_Click(object sender, EventArgs e)
         {
+            if (labelfundal.Visible == false)
+                labelfundal.Visible = true;
             tbdespre.Visible = false;
             rtbistoric.Visible = false;
             Form ob = new obiective();

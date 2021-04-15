@@ -39,6 +39,7 @@
             this.tbdespre = new System.Windows.Forms.TextBox();
             this.labeldespre = new System.Windows.Forms.Label();
             this.labelobiective = new System.Windows.Forms.Label();
+            this.labelfundal = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // rtbistoric
@@ -170,6 +171,17 @@
             this.labelobiective.Text = "Obiective turistice";
             this.labelobiective.Click += new System.EventHandler(this.labelobiective_Click);
             // 
+            // labelfundal
+            // 
+            this.labelfundal.AutoSize = true;
+            this.labelfundal.BackColor = System.Drawing.Color.Transparent;
+            this.labelfundal.Font = new System.Drawing.Font("Blackadder ITC", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelfundal.Location = new System.Drawing.Point(702, 432);
+            this.labelfundal.Name = "labelfundal";
+            this.labelfundal.Size = new System.Drawing.Size(126, 39);
+            this.labelfundal.TabIndex = 17;
+            this.labelfundal.Text = "Portugalia";
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -177,6 +189,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(861, 491);
+            this.Controls.Add(this.labelfundal);
             this.Controls.Add(this.labelobiective);
             this.Controls.Add(this.labeldespre);
             this.Controls.Add(this.tbdespre);
@@ -207,6 +220,7 @@
         private System.Windows.Forms.TextBox tbdespre;
         private System.Windows.Forms.Label labeldespre;
         private System.Windows.Forms.Label labelobiective;
+        private System.Windows.Forms.Label labelfundal;
     }
 }
 

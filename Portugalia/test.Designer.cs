@@ -397,6 +397,7 @@
             this.Controls.Add(this.intrebarea2);
             this.Controls.Add(this.intrebarea1);
             this.Name = "test";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "test";
             this.Load += new System.EventHandler(this.test_Load);
             this.intrebarea1.ResumeLayout(false);

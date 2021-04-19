@@ -142,6 +142,7 @@
             this.Controls.Add(this.labeldaluz);
             this.Controls.Add(this.labelfundal);
             this.Name = "obiective";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Obiective turistice";
             this.ResumeLayout(false);
             this.PerformLayout();

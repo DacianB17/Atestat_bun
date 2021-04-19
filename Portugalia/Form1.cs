@@ -93,7 +93,6 @@ namespace Portugalia
 
         private void labelinfgen_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Găsește numerele din fereastră pentru a afla lucruri noi despre această țară");
             if (labelfundal.Visible == false)
                 labelfundal.Visible = true;
             tbdespre.Visible = false;

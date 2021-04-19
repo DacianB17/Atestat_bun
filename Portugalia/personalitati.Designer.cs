@@ -29,129 +29,104 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(personalitati));
+            this.pbvasco = new System.Windows.Forms.PictureBox();
+            this.pbpedro = new System.Windows.Forms.PictureBox();
+            this.pbmaria = new System.Windows.Forms.PictureBox();
+            this.pbcristiano = new System.Windows.Forms.PictureBox();
             this.rtbpersonalitati = new System.Windows.Forms.RichTextBox();
-            this.imagpersonalitati = new System.Windows.Forms.PictureBox();
-            this.bvasco = new System.Windows.Forms.Label();
-            this.bpedro = new System.Windows.Forms.Label();
-            this.bmaria = new System.Windows.Forms.Label();
-            this.bcristiano = new System.Windows.Forms.Label();
-            this.labelfundal = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.imagpersonalitati)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbvasco)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbpedro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbmaria)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbcristiano)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pbvasco
+            // 
+            this.pbvasco.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbvasco.Image = ((System.Drawing.Image)(resources.GetObject("pbvasco.Image")));
+            this.pbvasco.Location = new System.Drawing.Point(0, 0);
+            this.pbvasco.Name = "pbvasco";
+            this.pbvasco.Size = new System.Drawing.Size(311, 397);
+            this.pbvasco.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbvasco.TabIndex = 0;
+            this.pbvasco.TabStop = false;
+            this.pbvasco.Click += new System.EventHandler(this.pbvasco_Click);
+            // 
+            // pbpedro
+            // 
+            this.pbpedro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbpedro.Image = ((System.Drawing.Image)(resources.GetObject("pbpedro.Image")));
+            this.pbpedro.Location = new System.Drawing.Point(280, 0);
+            this.pbpedro.Name = "pbpedro";
+            this.pbpedro.Size = new System.Drawing.Size(367, 397);
+            this.pbpedro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbpedro.TabIndex = 1;
+            this.pbpedro.TabStop = false;
+            this.pbpedro.Click += new System.EventHandler(this.pbpedro_Click);
+            // 
+            // pbmaria
+            // 
+            this.pbmaria.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbmaria.Image = ((System.Drawing.Image)(resources.GetObject("pbmaria.Image")));
+            this.pbmaria.Location = new System.Drawing.Point(647, 0);
+            this.pbmaria.Name = "pbmaria";
+            this.pbmaria.Size = new System.Drawing.Size(363, 397);
+            this.pbmaria.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbmaria.TabIndex = 2;
+            this.pbmaria.TabStop = false;
+            this.pbmaria.Click += new System.EventHandler(this.pbmaria_Click);
+            // 
+            // pbcristiano
+            // 
+            this.pbcristiano.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbcristiano.Image = ((System.Drawing.Image)(resources.GetObject("pbcristiano.Image")));
+            this.pbcristiano.Location = new System.Drawing.Point(1009, 0);
+            this.pbcristiano.Name = "pbcristiano";
+            this.pbcristiano.Size = new System.Drawing.Size(400, 397);
+            this.pbcristiano.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbcristiano.TabIndex = 3;
+            this.pbcristiano.TabStop = false;
+            this.pbcristiano.Click += new System.EventHandler(this.pbcristiano_Click);
             // 
             // rtbpersonalitati
             // 
-            this.rtbpersonalitati.Location = new System.Drawing.Point(106, 73);
+            this.rtbpersonalitati.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtbpersonalitati.Location = new System.Drawing.Point(0, 397);
             this.rtbpersonalitati.Name = "rtbpersonalitati";
             this.rtbpersonalitati.ReadOnly = true;
-            this.rtbpersonalitati.Size = new System.Drawing.Size(470, 563);
-            this.rtbpersonalitati.TabIndex = 7;
+            this.rtbpersonalitati.Size = new System.Drawing.Size(1406, 259);
+            this.rtbpersonalitati.TabIndex = 4;
             this.rtbpersonalitati.Text = "";
             this.rtbpersonalitati.Visible = false;
-            // 
-            // imagpersonalitati
-            // 
-            this.imagpersonalitati.Location = new System.Drawing.Point(595, 73);
-            this.imagpersonalitati.Name = "imagpersonalitati";
-            this.imagpersonalitati.Size = new System.Drawing.Size(572, 563);
-            this.imagpersonalitati.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imagpersonalitati.TabIndex = 8;
-            this.imagpersonalitati.TabStop = false;
-            this.imagpersonalitati.Visible = false;
-            // 
-            // bvasco
-            // 
-            this.bvasco.AutoSize = true;
-            this.bvasco.BackColor = System.Drawing.Color.Transparent;
-            this.bvasco.Location = new System.Drawing.Point(309, 19);
-            this.bvasco.Name = "bvasco";
-            this.bvasco.Size = new System.Drawing.Size(109, 17);
-            this.bvasco.TabIndex = 9;
-            this.bvasco.Text = "Vasco da Gama";
-            this.bvasco.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bvasco.Visible = false;
-            this.bvasco.Click += new System.EventHandler(this.bvasco_Click);
-            // 
-            // bpedro
-            // 
-            this.bpedro.AutoSize = true;
-            this.bpedro.BackColor = System.Drawing.Color.Transparent;
-            this.bpedro.Location = new System.Drawing.Point(434, 19);
-            this.bpedro.Name = "bpedro";
-            this.bpedro.Size = new System.Drawing.Size(142, 17);
-            this.bpedro.TabIndex = 10;
-            this.bpedro.Text = "Pedro Alvares Cabral";
-            this.bpedro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bpedro.Visible = false;
-            this.bpedro.Click += new System.EventHandler(this.bpedro_Click);
-            // 
-            // bmaria
-            // 
-            this.bmaria.AutoSize = true;
-            this.bmaria.BackColor = System.Drawing.Color.Transparent;
-            this.bmaria.Location = new System.Drawing.Point(592, 19);
-            this.bmaria.Name = "bmaria";
-            this.bmaria.Size = new System.Drawing.Size(50, 17);
-            this.bmaria.TabIndex = 11;
-            this.bmaria.Text = "Maria I";
-            this.bmaria.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bmaria.Visible = false;
-            this.bmaria.Click += new System.EventHandler(this.bmaria_Click);
-            // 
-            // bcristiano
-            // 
-            this.bcristiano.AutoSize = true;
-            this.bcristiano.BackColor = System.Drawing.Color.Transparent;
-            this.bcristiano.Location = new System.Drawing.Point(658, 19);
-            this.bcristiano.Name = "bcristiano";
-            this.bcristiano.Size = new System.Drawing.Size(120, 17);
-            this.bcristiano.TabIndex = 12;
-            this.bcristiano.Text = "Cristiano Ronaldo";
-            this.bcristiano.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bcristiano.Visible = false;
-            this.bcristiano.Click += new System.EventHandler(this.bcristiano_Click);
-            // 
-            // labelfundal
-            // 
-            this.labelfundal.AutoSize = true;
-            this.labelfundal.BackColor = System.Drawing.Color.Transparent;
-            this.labelfundal.Font = new System.Drawing.Font("Blackadder ITC", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelfundal.Location = new System.Drawing.Point(1067, 19);
-            this.labelfundal.Name = "labelfundal";
-            this.labelfundal.Size = new System.Drawing.Size(100, 39);
-            this.labelfundal.TabIndex = 13;
-            this.labelfundal.Text = "Algarve";
-            this.labelfundal.Click += new System.EventHandler(this.labelfundal_Click);
             // 
             // personalitati
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1211, 674);
-            this.Controls.Add(this.labelfundal);
-            this.Controls.Add(this.bcristiano);
-            this.Controls.Add(this.bmaria);
-            this.Controls.Add(this.bpedro);
-            this.Controls.Add(this.bvasco);
-            this.Controls.Add(this.imagpersonalitati);
+            this.ClientSize = new System.Drawing.Size(1409, 396);
             this.Controls.Add(this.rtbpersonalitati);
+            this.Controls.Add(this.pbcristiano);
+            this.Controls.Add(this.pbmaria);
+            this.Controls.Add(this.pbpedro);
+            this.Controls.Add(this.pbvasco);
             this.Name = "personalitati";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Personalități";
-            ((System.ComponentModel.ISupportInitialize)(this.imagpersonalitati)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbvasco)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbpedro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbmaria)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbcristiano)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.PictureBox pbvasco;
+        private System.Windows.Forms.PictureBox pbpedro;
+        private System.Windows.Forms.PictureBox pbmaria;
+        private System.Windows.Forms.PictureBox pbcristiano;
         private System.Windows.Forms.RichTextBox rtbpersonalitati;
-        private System.Windows.Forms.PictureBox imagpersonalitati;
-        private System.Windows.Forms.Label bvasco;
-        private System.Windows.Forms.Label bpedro;
-        private System.Windows.Forms.Label bmaria;
-        private System.Windows.Forms.Label bcristiano;
-        private System.Windows.Forms.Label labelfundal;
     }
 }

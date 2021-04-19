@@ -42,6 +42,7 @@
             // 
             this.labelfundal.AutoSize = true;
             this.labelfundal.BackColor = System.Drawing.Color.Transparent;
+            this.labelfundal.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelfundal.Font = new System.Drawing.Font("Blackadder ITC", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelfundal.ForeColor = System.Drawing.Color.White;
             this.labelfundal.Location = new System.Drawing.Point(696, 27);
@@ -67,6 +68,7 @@
             // 
             this.labelnext.AutoSize = true;
             this.labelnext.BackColor = System.Drawing.Color.Transparent;
+            this.labelnext.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelnext.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelnext.ForeColor = System.Drawing.Color.White;
             this.labelnext.Location = new System.Drawing.Point(758, 507);

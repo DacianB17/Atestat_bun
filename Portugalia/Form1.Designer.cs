@@ -56,6 +56,7 @@
             // 
             this.labelistoric.AutoSize = true;
             this.labelistoric.BackColor = System.Drawing.Color.Transparent;
+            this.labelistoric.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelistoric.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelistoric.ForeColor = System.Drawing.Color.White;
             this.labelistoric.Location = new System.Drawing.Point(12, 9);
@@ -69,6 +70,7 @@
             // 
             this.labelorase.AutoSize = true;
             this.labelorase.BackColor = System.Drawing.Color.Transparent;
+            this.labelorase.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelorase.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelorase.ForeColor = System.Drawing.Color.Transparent;
             this.labelorase.Location = new System.Drawing.Point(76, 9);
@@ -82,6 +84,7 @@
             // 
             this.labelpersonalitati.AutoSize = true;
             this.labelpersonalitati.BackColor = System.Drawing.Color.Transparent;
+            this.labelpersonalitati.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelpersonalitati.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelpersonalitati.ForeColor = System.Drawing.Color.White;
             this.labelpersonalitati.Location = new System.Drawing.Point(143, 9);
@@ -95,6 +98,7 @@
             // 
             this.labeltest.AutoSize = true;
             this.labeltest.BackColor = System.Drawing.Color.Transparent;
+            this.labeltest.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labeltest.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labeltest.ForeColor = System.Drawing.Color.White;
             this.labeltest.Location = new System.Drawing.Point(742, 9);
@@ -108,6 +112,7 @@
             // 
             this.labelinfgen.AutoSize = true;
             this.labelinfgen.BackColor = System.Drawing.Color.Transparent;
+            this.labelinfgen.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelinfgen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelinfgen.ForeColor = System.Drawing.Color.White;
             this.labelinfgen.Location = new System.Drawing.Point(259, 9);
@@ -121,6 +126,7 @@
             // 
             this.labeliesire.AutoSize = true;
             this.labeliesire.BackColor = System.Drawing.Color.Transparent;
+            this.labeliesire.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labeliesire.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labeliesire.ForeColor = System.Drawing.Color.White;
             this.labeliesire.Location = new System.Drawing.Point(794, 9);
@@ -149,6 +155,7 @@
             // 
             this.labeldespre.AutoSize = true;
             this.labeldespre.BackColor = System.Drawing.Color.Transparent;
+            this.labeldespre.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labeldespre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labeldespre.ForeColor = System.Drawing.Color.White;
             this.labeldespre.Location = new System.Drawing.Point(592, 9);
@@ -162,6 +169,7 @@
             // 
             this.labelobiective.AutoSize = true;
             this.labelobiective.BackColor = System.Drawing.Color.Transparent;
+            this.labelobiective.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelobiective.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelobiective.ForeColor = System.Drawing.Color.White;
             this.labelobiective.Location = new System.Drawing.Point(429, 9);
@@ -202,6 +210,7 @@
             this.Controls.Add(this.rtbistoric);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Principal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Portugalia";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

@@ -64,6 +64,7 @@
             // 
             this.labellisabona.AutoSize = true;
             this.labellisabona.BackColor = System.Drawing.Color.Transparent;
+            this.labellisabona.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labellisabona.Location = new System.Drawing.Point(1280, 73);
             this.labellisabona.Name = "labellisabona";
             this.labellisabona.Size = new System.Drawing.Size(66, 17);
@@ -76,6 +77,7 @@
             // 
             this.labelporto.AutoSize = true;
             this.labelporto.BackColor = System.Drawing.Color.Transparent;
+            this.labelporto.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelporto.Location = new System.Drawing.Point(1352, 73);
             this.labelporto.Name = "labelporto";
             this.labelporto.Size = new System.Drawing.Size(42, 17);
@@ -88,6 +90,7 @@
             // 
             this.labelbraga.AutoSize = true;
             this.labelbraga.BackColor = System.Drawing.Color.Transparent;
+            this.labelbraga.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelbraga.Location = new System.Drawing.Point(1280, 99);
             this.labelbraga.Name = "labelbraga";
             this.labelbraga.Size = new System.Drawing.Size(46, 17);
@@ -100,6 +103,7 @@
             // 
             this.labelsetubal.AutoSize = true;
             this.labelsetubal.BackColor = System.Drawing.Color.Transparent;
+            this.labelsetubal.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelsetubal.Location = new System.Drawing.Point(1332, 99);
             this.labelsetubal.Name = "labelsetubal";
             this.labelsetubal.Size = new System.Drawing.Size(56, 17);
@@ -112,6 +116,7 @@
             // 
             this.labelfundal.AutoSize = true;
             this.labelfundal.BackColor = System.Drawing.Color.Transparent;
+            this.labelfundal.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelfundal.Font = new System.Drawing.Font("Blackadder ITC", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelfundal.Location = new System.Drawing.Point(1276, 25);
             this.labelfundal.Name = "labelfundal";

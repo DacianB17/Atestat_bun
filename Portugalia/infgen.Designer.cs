@@ -45,6 +45,7 @@
             // 
             this.labelfundal.AutoSize = true;
             this.labelfundal.BackColor = System.Drawing.Color.Transparent;
+            this.labelfundal.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelfundal.Font = new System.Drawing.Font("Blackadder ITC", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelfundal.Location = new System.Drawing.Point(802, 18);
             this.labelfundal.Name = "labelfundal";
@@ -57,6 +58,7 @@
             // 
             this.labeldenof.AutoSize = true;
             this.labeldenof.BackColor = System.Drawing.Color.Transparent;
+            this.labeldenof.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labeldenof.ForeColor = System.Drawing.Color.White;
             this.labeldenof.Location = new System.Drawing.Point(138, 476);
             this.labeldenof.Name = "labeldenof";
@@ -70,6 +72,7 @@
             // 
             this.labelcap.AutoSize = true;
             this.labelcap.BackColor = System.Drawing.Color.Transparent;
+            this.labelcap.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelcap.ForeColor = System.Drawing.Color.White;
             this.labelcap.Location = new System.Drawing.Point(58, 40);
             this.labelcap.Name = "labelcap";
@@ -83,6 +86,7 @@
             // 
             this.labelsuprafata.AutoSize = true;
             this.labelsuprafata.BackColor = System.Drawing.Color.Transparent;
+            this.labelsuprafata.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelsuprafata.ForeColor = System.Drawing.Color.White;
             this.labelsuprafata.Location = new System.Drawing.Point(426, 104);
             this.labelsuprafata.Name = "labelsuprafata";
@@ -96,6 +100,7 @@
             // 
             this.labelpopulatia.AutoSize = true;
             this.labelpopulatia.BackColor = System.Drawing.Color.Transparent;
+            this.labelpopulatia.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelpopulatia.ForeColor = System.Drawing.Color.White;
             this.labelpopulatia.Location = new System.Drawing.Point(623, 18);
             this.labelpopulatia.Name = "labelpopulatia";
@@ -109,6 +114,7 @@
             // 
             this.labelmoneda.AutoSize = true;
             this.labelmoneda.BackColor = System.Drawing.Color.Transparent;
+            this.labelmoneda.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelmoneda.ForeColor = System.Drawing.Color.White;
             this.labelmoneda.Location = new System.Drawing.Point(866, 120);
             this.labelmoneda.Name = "labelmoneda";
@@ -122,6 +128,7 @@
             // 
             this.labelformadeguv.AutoSize = true;
             this.labelformadeguv.BackColor = System.Drawing.Color.Transparent;
+            this.labelformadeguv.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelformadeguv.ForeColor = System.Drawing.Color.White;
             this.labelformadeguv.Location = new System.Drawing.Point(762, 220);
             this.labelformadeguv.Name = "labelformadeguv";
@@ -135,6 +142,7 @@
             // 
             this.labelziuanat.AutoSize = true;
             this.labelziuanat.BackColor = System.Drawing.Color.Transparent;
+            this.labelziuanat.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelziuanat.ForeColor = System.Drawing.Color.White;
             this.labelziuanat.Location = new System.Drawing.Point(512, 271);
             this.labelziuanat.Name = "labelziuanat";
@@ -148,6 +156,7 @@
             // 
             this.labellimbaof.AutoSize = true;
             this.labellimbaof.BackColor = System.Drawing.Color.Transparent;
+            this.labellimbaof.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labellimbaof.ForeColor = System.Drawing.Color.White;
             this.labellimbaof.Location = new System.Drawing.Point(649, 375);
             this.labellimbaof.Name = "labellimbaof";
@@ -161,6 +170,7 @@
             // 
             this.labelreligie.AutoSize = true;
             this.labelreligie.BackColor = System.Drawing.Color.Transparent;
+            this.labelreligie.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelreligie.ForeColor = System.Drawing.Color.White;
             this.labelreligie.Location = new System.Drawing.Point(388, 500);
             this.labelreligie.Name = "labelreligie";

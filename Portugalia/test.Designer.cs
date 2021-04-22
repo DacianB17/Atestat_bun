@@ -54,6 +54,7 @@
             this.rb17 = new System.Windows.Forms.RadioButton();
             this.rb18 = new System.Windows.Forms.RadioButton();
             this.labelsintra = new System.Windows.Forms.Label();
+            this.labelnext = new System.Windows.Forms.Label();
             this.intrebarea1.SuspendLayout();
             this.intrebarea2.SuspendLayout();
             this.intrebarea3.SuspendLayout();
@@ -65,6 +66,7 @@
             // rb1
             // 
             this.rb1.AutoSize = true;
+            this.rb1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb1.Location = new System.Drawing.Point(6, 30);
             this.rb1.Name = "rb1";
             this.rb1.Size = new System.Drawing.Size(72, 21);
@@ -77,6 +79,7 @@
             // rb2
             // 
             this.rb2.AutoSize = true;
+            this.rb2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb2.Location = new System.Drawing.Point(6, 71);
             this.rb2.Name = "rb2";
             this.rb2.Size = new System.Drawing.Size(87, 21);
@@ -89,6 +92,7 @@
             // rb3
             // 
             this.rb3.AutoSize = true;
+            this.rb3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb3.Location = new System.Drawing.Point(6, 110);
             this.rb3.Name = "rb3";
             this.rb3.Size = new System.Drawing.Size(87, 21);
@@ -101,6 +105,7 @@
             // rb4
             // 
             this.rb4.AutoSize = true;
+            this.rb4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb4.Location = new System.Drawing.Point(6, 45);
             this.rb4.Name = "rb4";
             this.rb4.Size = new System.Drawing.Size(151, 21);
@@ -113,6 +118,7 @@
             // rb5
             // 
             this.rb5.AutoSize = true;
+            this.rb5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb5.Location = new System.Drawing.Point(6, 83);
             this.rb5.Name = "rb5";
             this.rb5.Size = new System.Drawing.Size(133, 21);
@@ -125,6 +131,7 @@
             // rb6
             // 
             this.rb6.AutoSize = true;
+            this.rb6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb6.Location = new System.Drawing.Point(6, 119);
             this.rb6.Name = "rb6";
             this.rb6.Size = new System.Drawing.Size(130, 21);
@@ -182,6 +189,7 @@
             // rb7
             // 
             this.rb7.AutoSize = true;
+            this.rb7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb7.Location = new System.Drawing.Point(6, 44);
             this.rb7.Name = "rb7";
             this.rb7.Size = new System.Drawing.Size(81, 21);
@@ -194,6 +202,7 @@
             // rb8
             // 
             this.rb8.AutoSize = true;
+            this.rb8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb8.Location = new System.Drawing.Point(6, 83);
             this.rb8.Name = "rb8";
             this.rb8.Size = new System.Drawing.Size(75, 21);
@@ -206,6 +215,7 @@
             // rb9
             // 
             this.rb9.AutoSize = true;
+            this.rb9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb9.Location = new System.Drawing.Point(6, 120);
             this.rb9.Name = "rb9";
             this.rb9.Size = new System.Drawing.Size(60, 21);
@@ -233,6 +243,7 @@
             // rb10
             // 
             this.rb10.AutoSize = true;
+            this.rb10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb10.Location = new System.Drawing.Point(6, 44);
             this.rb10.Name = "rb10";
             this.rb10.Size = new System.Drawing.Size(163, 21);
@@ -245,6 +256,7 @@
             // rb11
             // 
             this.rb11.AutoSize = true;
+            this.rb11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb11.Location = new System.Drawing.Point(6, 83);
             this.rb11.Name = "rb11";
             this.rb11.Size = new System.Drawing.Size(151, 21);
@@ -257,6 +269,7 @@
             // rb12
             // 
             this.rb12.AutoSize = true;
+            this.rb12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb12.Location = new System.Drawing.Point(6, 120);
             this.rb12.Name = "rb12";
             this.rb12.Size = new System.Drawing.Size(130, 21);
@@ -284,6 +297,7 @@
             // rb13
             // 
             this.rb13.AutoSize = true;
+            this.rb13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb13.Location = new System.Drawing.Point(6, 44);
             this.rb13.Name = "rb13";
             this.rb13.Size = new System.Drawing.Size(108, 21);
@@ -296,6 +310,7 @@
             // rb14
             // 
             this.rb14.AutoSize = true;
+            this.rb14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb14.Location = new System.Drawing.Point(6, 83);
             this.rb14.Name = "rb14";
             this.rb14.Size = new System.Drawing.Size(105, 21);
@@ -308,6 +323,7 @@
             // rb15
             // 
             this.rb15.AutoSize = true;
+            this.rb15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb15.Location = new System.Drawing.Point(6, 120);
             this.rb15.Name = "rb15";
             this.rb15.Size = new System.Drawing.Size(102, 21);
@@ -335,6 +351,7 @@
             // rb16
             // 
             this.rb16.AutoSize = true;
+            this.rb16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb16.Location = new System.Drawing.Point(6, 44);
             this.rb16.Name = "rb16";
             this.rb16.Size = new System.Drawing.Size(107, 21);
@@ -347,6 +364,7 @@
             // rb17
             // 
             this.rb17.AutoSize = true;
+            this.rb17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb17.Location = new System.Drawing.Point(6, 83);
             this.rb17.Name = "rb17";
             this.rb17.Size = new System.Drawing.Size(122, 21);
@@ -359,6 +377,7 @@
             // rb18
             // 
             this.rb18.AutoSize = true;
+            this.rb18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rb18.Location = new System.Drawing.Point(6, 120);
             this.rb18.Name = "rb18";
             this.rb18.Size = new System.Drawing.Size(141, 21);
@@ -382,6 +401,21 @@
             this.labelsintra.Text = "Palatul Pena";
             this.labelsintra.Click += new System.EventHandler(this.labelsintra_Click);
             // 
+            // labelnext
+            // 
+            this.labelnext.AutoSize = true;
+            this.labelnext.BackColor = System.Drawing.Color.Transparent;
+            this.labelnext.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelnext.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelnext.ForeColor = System.Drawing.Color.White;
+            this.labelnext.Location = new System.Drawing.Point(830, 492);
+            this.labelnext.Name = "labelnext";
+            this.labelnext.Size = new System.Drawing.Size(148, 18);
+            this.labelnext.TabIndex = 16;
+            this.labelnext.Text = "Următoarea întrebare";
+            this.labelnext.Visible = false;
+            this.labelnext.Click += new System.EventHandler(this.labelnext_Click);
+            // 
             // test
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -389,6 +423,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1034, 543);
+            this.Controls.Add(this.labelnext);
             this.Controls.Add(this.labelsintra);
             this.Controls.Add(this.intrebarea6);
             this.Controls.Add(this.intrebarea5);
@@ -443,5 +478,6 @@
         private System.Windows.Forms.RadioButton rb17;
         private System.Windows.Forms.RadioButton rb18;
         private System.Windows.Forms.Label labelsintra;
+        private System.Windows.Forms.Label labelnext;
     }
 }

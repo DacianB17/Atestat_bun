@@ -18,28 +18,28 @@ namespace Portugalia
         }
         private void pbvasco_Click(object sender, EventArgs e)
         {
-            this.Size = new Size(1073, 574);
+            this.Size = new Size(1123, 574);
             rtbpersonalitati.Visible = true;
             rtbpersonalitati.LoadFile("vascodagama.rtf");
         }
 
         private void pbpedro_Click(object sender, EventArgs e)
         {
-            this.Size = new Size(1073, 574);
+            this.Size = new Size(1123, 574);
             rtbpersonalitati.Visible = true;
             rtbpersonalitati.LoadFile("pedroalvarescabral.rtf");
         }
 
         private void pbmaria_Click(object sender, EventArgs e)
         {
-            this.Size = new Size(1073, 574);
+            this.Size = new Size(1123, 574);
             rtbpersonalitati.Visible = true;
             rtbpersonalitati.LoadFile("maria1.rtf");
         }
 
         private void pbcristiano_Click(object sender, EventArgs e)
         {
-            this.Size = new Size(1073, 574);
+            this.Size = new Size(1123, 574);
             rtbpersonalitati.Visible = true;
             rtbpersonalitati.LoadFile("cristianoronaldo.rtf");
         }

@@ -56,9 +56,9 @@
             // 
             this.pbpedro.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbpedro.Image = ((System.Drawing.Image)(resources.GetObject("pbpedro.Image")));
-            this.pbpedro.Location = new System.Drawing.Point(280, 0);
+            this.pbpedro.Location = new System.Drawing.Point(1070, 0);
             this.pbpedro.Name = "pbpedro";
-            this.pbpedro.Size = new System.Drawing.Size(367, 397);
+            this.pbpedro.Size = new System.Drawing.Size(422, 397);
             this.pbpedro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbpedro.TabIndex = 1;
             this.pbpedro.TabStop = false;
@@ -68,7 +68,7 @@
             // 
             this.pbmaria.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbmaria.Image = ((System.Drawing.Image)(resources.GetObject("pbmaria.Image")));
-            this.pbmaria.Location = new System.Drawing.Point(647, 0);
+            this.pbmaria.Location = new System.Drawing.Point(311, 0);
             this.pbmaria.Name = "pbmaria";
             this.pbmaria.Size = new System.Drawing.Size(363, 397);
             this.pbmaria.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -80,9 +80,9 @@
             // 
             this.pbcristiano.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbcristiano.Image = ((System.Drawing.Image)(resources.GetObject("pbcristiano.Image")));
-            this.pbcristiano.Location = new System.Drawing.Point(1009, 0);
+            this.pbcristiano.Location = new System.Drawing.Point(672, 0);
             this.pbcristiano.Name = "pbcristiano";
-            this.pbcristiano.Size = new System.Drawing.Size(400, 397);
+            this.pbcristiano.Size = new System.Drawing.Size(419, 397);
             this.pbcristiano.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbcristiano.TabIndex = 3;
             this.pbcristiano.TabStop = false;
@@ -94,7 +94,7 @@
             this.rtbpersonalitati.Location = new System.Drawing.Point(0, 397);
             this.rtbpersonalitati.Name = "rtbpersonalitati";
             this.rtbpersonalitati.ReadOnly = true;
-            this.rtbpersonalitati.Size = new System.Drawing.Size(1406, 259);
+            this.rtbpersonalitati.Size = new System.Drawing.Size(1472, 259);
             this.rtbpersonalitati.TabIndex = 4;
             this.rtbpersonalitati.Text = "";
             this.rtbpersonalitati.Visible = false;
@@ -104,7 +104,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1409, 396);
+            this.ClientSize = new System.Drawing.Size(1475, 396);
             this.Controls.Add(this.rtbpersonalitati);
             this.Controls.Add(this.pbcristiano);
             this.Controls.Add(this.pbmaria);

@@ -26,7 +26,7 @@ namespace Portugalia
         {
 
         }
-        int i = 0;
+        int i = 0, t = 0;
         private void rb2_CheckedChanged(object sender, EventArgs e)
         {
             i++;
@@ -60,17 +60,33 @@ namespace Portugalia
         private void rb18_CheckedChanged(object sender, EventArgs e)
         {
             i++;
-            intrebarea6.Visible = false;
-            if (i == 6)
-                MessageBox.Show("6/6, Bravo!!");
-            else
-                MessageBox.Show("Mai încearcă!");
         }
 
         private void labelsintra_Click(object sender, EventArgs e)
         {
+            t++;
+            if (t > 1) i = -i;
             intrebarea1.Location = new Point(12, 12);
             intrebarea1.Visible = true;
+            rb1.Checked = false;
+            rb2.Checked = false;
+            rb3.Checked = false;
+            rb4.Checked = false;
+            rb5.Checked = false;
+            rb6.Checked = false;
+            rb7.Checked = false;
+            rb8.Checked = false;
+            rb9.Checked = false;
+            rb10.Checked = false;
+            rb11.Checked = false;
+            rb12.Checked = false;
+            rb13.Checked = false;
+            rb14.Checked = false;
+            rb15.Checked = false;
+            rb16.Checked = false;
+            rb17.Checked = false;
+            rb18.Checked = false;
+            labelsintra.Visible = false;
         }
         private void rb1_CheckedChanged(object sender, EventArgs e)
         {
@@ -124,14 +140,10 @@ namespace Portugalia
 
         private void rb16_CheckedChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("Mai încearcă!");
-            intrebarea6.Visible = false;
         }
 
         private void rb17_CheckedChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("Mai încearcă!");
-            intrebarea6.Visible = false;
         }
         int j = 0;
         private void labelnext_Click(object sender, EventArgs e)
@@ -173,8 +185,20 @@ namespace Portugalia
                 intrebarea6.Location = new Point(12, 12);
                 intrebarea6.Visible = true;
                 labelnext.Visible = false;
+                labelfinalizare.Visible = true;
                 j = 0;
             }
+        }
+
+        private void labelfinalizare_Click(object sender, EventArgs e)
+        {
+            intrebarea6.Visible = false;
+            labelfinalizare.Visible = false;
+            if (i == 6)
+                MessageBox.Show("6/6, Bravo!!");
+            else
+                MessageBox.Show("Mai încearcă!");
+            labelsintra.Visible = true;
         }
     }
 }

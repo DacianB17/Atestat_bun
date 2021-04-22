@@ -55,6 +55,7 @@
             this.rb18 = new System.Windows.Forms.RadioButton();
             this.labelsintra = new System.Windows.Forms.Label();
             this.labelnext = new System.Windows.Forms.Label();
+            this.labelfinalizare = new System.Windows.Forms.Label();
             this.intrebarea1.SuspendLayout();
             this.intrebarea2.SuspendLayout();
             this.intrebarea3.SuspendLayout();
@@ -80,7 +81,7 @@
             // 
             this.rb2.AutoSize = true;
             this.rb2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rb2.Location = new System.Drawing.Point(6, 71);
+            this.rb2.Location = new System.Drawing.Point(6, 70);
             this.rb2.Name = "rb2";
             this.rb2.Size = new System.Drawing.Size(87, 21);
             this.rb2.TabIndex = 2;
@@ -291,7 +292,7 @@
             this.intrebarea5.Size = new System.Drawing.Size(243, 162);
             this.intrebarea5.TabIndex = 12;
             this.intrebarea5.TabStop = false;
-            this.intrebarea5.Text = "Cum a fost supranumita Regina Maria I a Portugaliei?";
+            this.intrebarea5.Text = "Cum a fost supranumită Regina Maria I a Portugaliei?";
             this.intrebarea5.Visible = false;
             // 
             // rb13
@@ -416,6 +417,21 @@
             this.labelnext.Visible = false;
             this.labelnext.Click += new System.EventHandler(this.labelnext_Click);
             // 
+            // labelfinalizare
+            // 
+            this.labelfinalizare.AutoSize = true;
+            this.labelfinalizare.BackColor = System.Drawing.Color.Transparent;
+            this.labelfinalizare.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelfinalizare.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelfinalizare.ForeColor = System.Drawing.Color.White;
+            this.labelfinalizare.Location = new System.Drawing.Point(858, 492);
+            this.labelfinalizare.Name = "labelfinalizare";
+            this.labelfinalizare.Size = new System.Drawing.Size(71, 18);
+            this.labelfinalizare.TabIndex = 17;
+            this.labelfinalizare.Text = "Finalizare";
+            this.labelfinalizare.Visible = false;
+            this.labelfinalizare.Click += new System.EventHandler(this.labelfinalizare_Click);
+            // 
             // test
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -423,6 +439,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1034, 543);
+            this.Controls.Add(this.labelfinalizare);
             this.Controls.Add(this.labelnext);
             this.Controls.Add(this.labelsintra);
             this.Controls.Add(this.intrebarea6);
@@ -433,7 +450,7 @@
             this.Controls.Add(this.intrebarea1);
             this.Name = "test";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "test";
+            this.Text = "Test";
             this.Load += new System.EventHandler(this.test_Load);
             this.intrebarea1.ResumeLayout(false);
             this.intrebarea1.PerformLayout();
@@ -479,5 +496,6 @@
         private System.Windows.Forms.RadioButton rb18;
         private System.Windows.Forms.Label labelsintra;
         private System.Windows.Forms.Label labelnext;
+        private System.Windows.Forms.Label labelfinalizare;
     }
 }

@@ -195,9 +195,9 @@ namespace Portugalia
             intrebarea6.Visible = false;
             labelfinalizare.Visible = false;
             if (i == 6)
-                MessageBox.Show("6/6, Bravo!!");
+                MessageBox.Show("Ai răspuns corect la toate întrebările, felicitări!");
             else
-                MessageBox.Show("Mai încearcă!");
+                MessageBox.Show("Ai răspuns corect la " + i.ToString() + " întrebări. Mai încearcă!");
             labelsintra.Visible = true;
         }
     }

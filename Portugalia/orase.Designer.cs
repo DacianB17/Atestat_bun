@@ -41,6 +41,7 @@
             // 
             // rtborase
             // 
+            this.rtborase.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtborase.Location = new System.Drawing.Point(610, 145);
             this.rtborase.Name = "rtborase";
             this.rtborase.ReadOnly = true;

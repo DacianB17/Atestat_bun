@@ -91,6 +91,7 @@
             // rtbpersonalitati
             // 
             this.rtbpersonalitati.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtbpersonalitati.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbpersonalitati.Location = new System.Drawing.Point(0, 397);
             this.rtbpersonalitati.Name = "rtbpersonalitati";
             this.rtbpersonalitati.ReadOnly = true;

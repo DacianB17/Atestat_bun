@@ -22,8 +22,9 @@ namespace Portugalia
         {
             labeldaluz.Visible = true;
             labelnext.Visible = true;
-            if (i == 4)
+            if (i == 3)
                 labelpena.Visible = false;
+            i = 0;
         }
 
         private void labelnext_Click(object sender, EventArgs e)
@@ -44,16 +45,10 @@ namespace Portugalia
             if(i==3)
             {
                 labelbairro.Visible = false;
-                labelalgarve.Visible = true;
-                labelalgarve.Location = labelbairro.Location;
-            }    
-            if(i==4)
-            {
-                labelalgarve.Visible = false;
                 labelpena.Visible = true;
-                labelpena.Location = labelalgarve.Location;
+                labelpena.Location = labelbairro.Location;
                 labelnext.Visible = false;
-            }
+            }    
         }
     }
 }

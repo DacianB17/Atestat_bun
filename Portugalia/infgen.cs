@@ -22,11 +22,6 @@ namespace Portugalia
             MessageBox.Show("Găsește numerele din fereastră pentru a afla lucruri noi despre această țară");
             labeldenof.Visible = true;
         }
-
-        private void labelafdenof_Click(object sender, EventArgs e)
-        {
-        }
-
         private void labeldenof_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Denumire oficială: Republica Portugheză");

@@ -21,38 +21,6 @@ namespace Portugalia
         {
 
         }
-
-        private void bistoric_Click(object sender, EventArgs e)
-        {
-            rtbistoric.Visible = true;
-            rtbistoric.LoadFile("istoric.rtf");
-        }
-
-        private void borase_Click(object sender, EventArgs e)
-        {
-            rtbistoric.Visible = false;
-            Form or = new orase();
-            or.Show();
-        }
-
-        private void btest_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void butontest_Click(object sender, EventArgs e)
-        {
-            rtbistoric.Visible = false;
-            Form te = new test();
-            te.Show();
-        }
-
-        private void bpersonalitati_Click(object sender, EventArgs e)
-        {
-            rtbistoric.Visible = false;
-            Form pe = new personalitati();
-            pe.Show();
-        }
-
         private void labelistoric_Click(object sender, EventArgs e)
         {
             labelfundal.Visible = false;

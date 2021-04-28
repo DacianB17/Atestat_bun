@@ -21,11 +21,6 @@ namespace Portugalia
         {
 
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
         int i = 0, t = 0;
         private void rb2_CheckedChanged(object sender, EventArgs e)
         {

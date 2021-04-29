@@ -16,10 +16,11 @@ namespace Portugalia
         {
             InitializeComponent();
         }
-
+        int i = 0;
         private void labelfundal_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Găsește numerele din fereastră pentru a afla lucruri noi despre această țară");
+            i++;
+            if(i==1)MessageBox.Show("Găsește numerele din fereastră pentru a afla lucruri noi despre această țară");
             labeldenof.Visible = true;
         }
         private void labeldenof_Click(object sender, EventArgs e)

@@ -84,5 +84,10 @@ namespace Portugalia
             labelreligie.Visible = false;
             MessageBox.Show("Religia: catolici 94% etc.");
         }
+
+        private void infgen_Load(object sender, EventArgs e)
+        {
+            MaximizeBox = false;
+        }
     }
 }

@@ -197,9 +197,11 @@
             this.Controls.Add(this.labelcap);
             this.Controls.Add(this.labeldenof);
             this.Controls.Add(this.labelfundal);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "infgen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Informații generale";
+            this.Load += new System.EventHandler(this.infgen_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

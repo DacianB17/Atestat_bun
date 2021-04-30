@@ -111,9 +111,11 @@
             this.Controls.Add(this.pbmaria);
             this.Controls.Add(this.pbpedro);
             this.Controls.Add(this.pbvasco);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "personalitati";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Personalități";
+            this.Load += new System.EventHandler(this.personalitati_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbvasco)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbpedro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbmaria)).EndInit();

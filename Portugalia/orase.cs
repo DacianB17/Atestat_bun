@@ -19,7 +19,7 @@ namespace Portugalia
 
         private void orase_Load(object sender, EventArgs e)
         {
-
+            MaximizeBox = false;
         }
 
 

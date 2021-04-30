@@ -50,5 +50,10 @@ namespace Portugalia
                 labelnext.Visible = false;
             }    
         }
+
+        private void obiective_Load(object sender, EventArgs e)
+        {
+            MaximizeBox = false;
+        }
     }
 }

@@ -40,5 +40,10 @@ namespace Portugalia
             rtbpersonalitati.Visible = true;
             rtbpersonalitati.LoadFile("cristianoronaldo.rtf");
         }
+
+        private void personalitati_Load(object sender, EventArgs e)
+        {
+            MaximizeBox = false;
+        }
     }
 }

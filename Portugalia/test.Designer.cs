@@ -448,6 +448,7 @@
             this.Controls.Add(this.intrebarea3);
             this.Controls.Add(this.intrebarea2);
             this.Controls.Add(this.intrebarea1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "test";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Test";

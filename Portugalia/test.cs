@@ -19,7 +19,7 @@ namespace Portugalia
 
         private void test_Load(object sender, EventArgs e)
         {
-
+            MaximizeBox = false;
         }
         int i = 0, t = 0;
         private void rb2_CheckedChanged(object sender, EventArgs e)

@@ -140,6 +140,7 @@
             this.Controls.Add(this.labellisabona);
             this.Controls.Add(this.pbharta);
             this.Controls.Add(this.rtborase);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "orase";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Orașe";

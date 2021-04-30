@@ -141,9 +141,11 @@
             this.Controls.Add(this.labelnext);
             this.Controls.Add(this.labeldaluz);
             this.Controls.Add(this.labelfundal);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "obiective";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Obiective turistice";
+            this.Load += new System.EventHandler(this.obiective_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
